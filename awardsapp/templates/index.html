@@ -4,15 +4,15 @@
 {% block content %}
 {{block.super}}
 <div class="landing-page"
-    style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);height:96vh;background-size:cover;background-position:center">
+    style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1634906815194-e2999e0c129b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);height:96vh;background-size:cover;background-position:center">
     <h5 class="text-white ml-5 pt-5 text-center">Site of the day as of {% now "jS \o\f F" %}</h5>
     <div class="text-white text-center pt-5 mt-3">
-        <h1 class="pt-5 mt-5 text-white ">PORTFOLIO</h1>
+        <h1 class="pt-5 mt-5 text-white ">VIEW MY SAMPLE PROJECTS BELOW</h1>
     </div>
 </div>
 
 <div class="container-fluid pb-5" id="mainprojview">
-    <h2 class=" ml-5 pt-5 text-center underline">Projects for your Consideration</h2>
+    <h2 class=" ml-5 pt-5 text-center underline">My Sample Projects</h2>
     <h5 class="text-muted text-center">As of {% now "jS \o\f F" %}</h5><br>
     <div class="row">
         {% for project in projects %}

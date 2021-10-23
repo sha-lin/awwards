@@ -69,7 +69,7 @@ def upload_project(request):
         form = ProjectUploadForm(request.POST, request.FILES)
         if form.is_valid():
             project = form.save(commit = False)
-            project.prof_ref = request.user.profile
+            # project.prof_ref = request.user.profile
             project.save()
             messages.success(request, f'Successfully uploaded your Project!')
             return redirect('index')
