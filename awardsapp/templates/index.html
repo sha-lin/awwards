@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+{%load static%}
+{%load cloudinary%}
+{% block content %}
+{{block.super}}
+<div class="landing-page" style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);height:96vh;background-size:cover;background-position:center">
+    <h5 class="text-white ml-5 pt-5 text-center">Site of the day as of {% now "jS \o\f F" %}</h5>
+    <div class="text-white text-center pt-5 mt-3">
+        <h1 class="pt-5 mt-5 text-white ">PORTFOLIO</h1>
+        
