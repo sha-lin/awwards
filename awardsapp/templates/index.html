@@ -7,7 +7,8 @@
     style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1634906815194-e2999e0c129b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);height:96vh;background-size:cover;background-position:center">
     <h5 class="text-white ml-5 pt-5 text-center">Site of the day as of {% now "jS \o\f F" %}</h5>
     <div class="text-white text-center pt-5 mt-3">
-        <h1 class="pt-5 mt-5 text-white ">VIEW MY SAMPLE PROJECTS BELOW</h1>
+        <h1 class="pt-5 mt-5 text-white ">VIEW MY SAMPLE PROJECTS BELOW</h1> <br> <br> <br>
+        <h5>Welcome to my site . <br> I hope that you have a great experience as you explore this page <br> Scroll down to view a sample of my projects</h5>
     </div>
 </div>
 
@@ -22,7 +23,7 @@
                 <img src="{{project.project_image.url}}" style="width:100%;height:56%;" class="img-responsive" alt="Card Image"></a><hr>
                 <h5 class="card-title pl-2 underline text-center"> {{project.title}}</h5>
                 <div class="card-body">
-                    <p class=""><strong>By:</strong> {{project.prof_ref.user.username}}</p>
+                    <p class=""><strong>By:Shalin Rono</strong> {{project.prof_ref.user.username}}</p>
                     <p class="card-text"><strong>About:</strong> {{project.description|truncatechars:150}}</p>
                     <a href="{% url 'project' project.id %}" class="card-link">View & Rate Project</a>
                 </div><br>
