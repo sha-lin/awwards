@@ -1,5 +1,5 @@
-## Instagram Clone Web Application
-This is an Instagram Clone Web Application. Just like the app Instagram,the user can signup for an account and follow others and also be followed back. The user can also post and comment. 
+## Awwards Project
+This Awwards web application serves mainly to enable on to view my projects and rate them. It also enables one to post their own projects after signing up for an account. 
 
 ## screenshot-images
 <img src="./static/images/landing.png"> <br><br>
@@ -14,7 +14,7 @@ This is an Instagram Clone Web Application. Just like the app Instagram,the user
 
 - Django3.2.8
 
-- Bootstrap3
+- Bootstrap4
 
 - CSS
 
@@ -27,14 +27,14 @@ This is an Instagram Clone Web Application. Just like the app Instagram,the user
 
 1. Clone the repository
    
-   git clone https://github.com/sha-lin/instagram
+   git clone https://github.com/sha-lin/awwards
 
 2. Install the latest django version and other requirements in my requirements.txt file
 
 
 ## Usage
 
-The user will signup for an account then login. After loging in the user can post,like ,comment,follow others and be followed back.
+The user should view the projects on the landing page and also be able to upload their own projects.
 
 
 ## Contributing
@@ -51,7 +51,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 ## Contact Information
 E_MAIL -ronoshalin@gmail.com
 
-Project Link: [https://github.com/sha-lin/instagram](https://github.com/sha-lin/instagram)
+Project Link: [https://github.com/sha-lin/awwards](https://github.com/sha-lin/awwards)
 ## License
 https://github.com/sha-lin/instagram/blob/master/LICENSE
 # **Copyright**
