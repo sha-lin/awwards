@@ -53,6 +53,6 @@ E_MAIL -ronoshalin@gmail.com
 
 Project Link: [https://github.com/sha-lin/awwards](https://github.com/sha-lin/awwards)
 ## License
-https://github.com/sha-lin/instagram/blob/master/LICENSE
+https://github.com/sha-lin/awwards/blob/master/LICENSE
 # **Copyright**
 Copyright (c) {2021} **SHALIN RONO**
