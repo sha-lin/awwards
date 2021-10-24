@@ -15,6 +15,7 @@ lts==0.0.2
 Pillow==8.4.0
 psycopg2==2.9.1
 pycrop==1.0.1
+python-decouple==3.5
 pytz==2021.3
 six==1.16.0
 soupsieve==2.2.1
